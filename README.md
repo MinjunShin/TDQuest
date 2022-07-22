@@ -4,6 +4,9 @@
 # About
 TDQuest는 To-do list와 게임 요소를 결합하여, Todo를 좀 더 흥미롭게 진행할 수 있게 만들어주는 Web App입니다.
 
+# Dev Logs
+https://621049.notion.site/TDQuest-a876c5a382194176862d6d7b9d4b163b
+
 # Kick
 - Spirit (ex. 매일 명상 10분), Physical (ex. 런닝 1시간 뛰기), Intelligence(ex. 알고리즘 문제 1시간 풀기) 세가지 카테고리의 태스크를 생성할 수 있습니다.
 - 태스크를 완료하면서 유저의 가상 케릭터의 능력치 (정신, 신체, 지식) 를 업그레이드 할 수 있습니다.
