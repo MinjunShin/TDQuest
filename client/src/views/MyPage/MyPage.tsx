@@ -52,8 +52,11 @@ function MyPage() {
   const userData = useAppSelector((state) => state.MyPageInfo);
   const charData = useAppSelector((state) => state.character);
   const dispatch = useAppDispatch();
-  const medals: string[] = charData?.medal.split(",") || [];
-  // console.log(medals);
+  
+  let medals: string[] = [];
+  if (charData?.medal !== null) {
+    medals = charData.medal?.split(",") || [];
+  }
 
   const LOCALSTORAGE = window.localStorage;
   const LOCALSTORAGE_PASRED = JSON.parse(
